@@ -2,7 +2,11 @@ def capital_letters(text: str) -> str:
     """
     Функция преобразует текст в заглавные буквы
     """
-    # Метод .upper() превращает текст в заглавные буквы
-    big_letters = text.upper()
+    return text.upper()
 
-    return big_letters
+
+def capital_first_letters (text: str) -> str:
+    """
+    Функция делает заглавными первые буквы
+    """
+    return text.title()

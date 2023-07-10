@@ -10,3 +10,5 @@ def capital_first_letters (text: str) -> str:
     Функция делает заглавными первые буквы
     """
     return text.title()
+
+
